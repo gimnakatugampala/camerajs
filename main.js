@@ -132,7 +132,7 @@ downloadBtn.addEventListener("click", () => {
   // Check image type
   if (fileExtension === ".jpg" || fileExtension === ".png") {
     // new filename
-    newFilename = fileName.substring(0, fileName.length - 4) + "-edited.jpg";
+    newFilename = fileName.slice(0, fileName.length -4) + "-edited.jpg";
   }
 
   // Call download
