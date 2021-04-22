@@ -1,5 +1,13 @@
-#canvas{
-    margin: auto;
-    background: #ececec;
-    width: 100%;
+#canvas {
+  margin: auto;
+  background: #ececec;
+  width: 100%;
+}
+
+.btn-block {
+  margin-bottom: 10px;
+}
+
+.btn-group {
+  margin-bottom: 10px;
 }
